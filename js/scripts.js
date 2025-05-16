@@ -119,7 +119,7 @@ function exercicio3() {
         aux = aux + "\n" + `O lucro foi de R$ ${lucro} com o preço do ingresso a R$ ${preçoingresso} e a despesa foi de R$ ${gastos}`;
         alert(`O lucro foi de R$ ${lucro} com o preço do ingresso a R$ ${preçoingresso} e a despesa foi de R$ ${gastos}`);
 
-        // Diminui o preço do ingresso em 0.5
+        // Diminui o preço do ingresso em 0.5 
         preçoingresso = preçoingresso - 0.50;
 
         // Aumenta a quantidade de ingressos vendidos em 26 quando se diminui o preço
