@@ -91,6 +91,13 @@ function exercicio3() {
     // Exibe os valores em ordem crescente
     alert(`Os valores em ordem decrescente são: ${d}, ${c}, ${b}, ${a}`)
     // Exibe os valores em ordem decrescente
+
+
+
+
+
+
+
  }
    function exercicio2() {
     let quantidadeingresso = 120; // Quantidade de ingressos vendidos
@@ -129,8 +136,45 @@ function exercicio3() {
     // Exibe o maior lucro, o preço do ingresso correspondente e a quantidade de ingressos vendidos
     alert(`\nMaior lucro: R$ ${maiorlucro}\nPreço do ingresso: R$ ${maiorpreço}\nQuantidade de ingressos vendidos: ${maiorquantidade}`);
 }
-        
 
+
+
+
+
+function exercicio4() { //tabuada
+
+    let escolhida, tabuada, quant = 0;
+
+     let num = Number(prompt("Informe um número para ver a tabuada: ")); // Solicita ao usuário um número   
+
+     while (quant <= 10) { // Enquanto a quantidade for menor que 10
+        tabuada = num * quant; // Calcula a tabuada // tabuada é igual numero vez a tabuada que vc quer
+
+        alert(`${num} x ${quant} = ${tabuada}`); // mostra o resultado da tabuada
+
+        quant++; // soma a quantidade
+     }
+}
+
+function exercicio5() { //executa todas as tabuadas
+    let escolhida, tabuada, quant = 0;
+
+     let num = Number(prompt("Informe um número para ver a tabuada: ")); // Solicita ao usuário um número   
+
+     while (quant <= 10) { // Enquanto a quantidade for menor que 10
+        tabuada = num * quant; // Calcula a tabuada // tabuada é igual numero vez a tabuada que vc quer
+
+        alert(`${num} x ${quant} = ${tabuada}`); // mostra o resultado da tabuada
+
+        quant++; // soma a quantidade
+     }
+}
+function exercicio6() { // vendas 
+
+ }
+
+
+   
         
     
 
